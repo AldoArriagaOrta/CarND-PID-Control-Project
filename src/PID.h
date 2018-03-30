@@ -18,6 +18,12 @@ public:
   double Kd;
 
   /*
+  * Parameters
+  */
+  double anti_windup;
+  double out_saturation;
+
+  /*
   * Constructor
   */
   PID();
